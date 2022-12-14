@@ -10,7 +10,7 @@ body {
     background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
 }
 
-.container {
+main.container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,11 +44,12 @@ body {
     background-color: rgba(199, 54, 95, 0.60);
 }
 
-.last-score {
+div.last-score {
     font-size: 2em;
 }
+/* تمام المنتهایی در صفحه که کلاس ریسلات دارند */
 
-.result {
+div.result {
     display: flex;
     flex-direction: column;
     align-items: center;
