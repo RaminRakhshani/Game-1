@@ -72,6 +72,8 @@ img#dice {
 
     height: 2.5em;
 
+    transform: translateX(-50%);
+
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
@@ -85,7 +87,7 @@ button#btn-roll-dice {
     width: 8em;
     height: 2.5em;
 
-    /* transform: translateX(-50%); */
+    transform: translateX(-50%);
 
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -103,7 +105,7 @@ button#btn-new-game {
     width: 8em;
     height: 2.5em;
 
-    /* transform: translateX(-50%); */
+    transform: translateX(-50%);
 
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -111,7 +113,7 @@ button#btn-new-game {
     font-weight: 700;
     font-size: 0.5em;
     color: red;
-    
+
 }
 
 
