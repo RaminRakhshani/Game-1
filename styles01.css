@@ -65,7 +65,19 @@ div.result {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-#btn-roll-dice {
+img#dice {
+    left: 50%;
+    top:30%;
+    position: absolute;
+
+    height: 2.5em;
+
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+button#btn-roll-dice {
     left: 50%;
     bottom: 25%;
     position: absolute;
@@ -73,7 +85,7 @@ div.result {
     width: 8em;
     height: 2.5em;
 
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
 
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -83,7 +95,7 @@ div.result {
 
 }
 
-#btn-new-game {
+button#btn-new-game {
     left: 50%;
     bottom: 15%;
     position: absolute;
@@ -91,7 +103,7 @@ div.result {
     width: 8em;
     height: 2.5em;
 
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
 
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -99,7 +111,7 @@ div.result {
     font-weight: 700;
     font-size: 0.5em;
     color: red;
-
+    
 }
 
 
