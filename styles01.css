@@ -17,7 +17,7 @@ main.container {
     justify-content: center;
 
     width: 80vw;
-    height: 80vw;
+    height: 80vh;
 
     text-transform: uppercase;
     border-radius: 1em;
